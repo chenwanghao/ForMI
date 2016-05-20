@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F8B2E601CDB7D4000C06100 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8B2E5F1CDB7D4000C06100 /* main.m */; };
+		9F8B2E631CDB7D4000C06100 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8B2E621CDB7D4000C06100 /* AppDelegate.m */; };
+		9F8B2E661CDB7D4000C06100 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8B2E651CDB7D4000C06100 /* ViewController.m */; };
+		9F8B2E691CDB7D4000C06100 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F8B2E671CDB7D4000C06100 /* Main.storyboard */; };
+		9F8B2E6B1CDB7D4000C06100 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F8B2E6A1CDB7D4000C06100 /* Assets.xcassets */; };
+		9F8B2E6E1CDB7D4000C06100 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F8B2E6C1CDB7D4000C06100 /* LaunchScreen.storyboard */; };
+		9F8B2E791CDB7D4000C06100 /* ForMITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8B2E781CDB7D4000C06100 /* ForMITests.m */; };
+		9F8B2E841CDB7D4000C06100 /* ForMIUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8B2E831CDB7D4000C06100 /* ForMIUITests.m */; };
+		9F8B2E961CDB804F00C06100 /* HeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8B2E951CDB804F00C06100 /* HeaderView.m */; };
+		9F8B2E991CDB818A00C06100 /* UIImageView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8B2E981CDB818A00C06100 /* UIImageView+Extension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F8B2E751CDB7D4000C06100 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F8B2E531CDB7D4000C06100 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F8B2E5A1CDB7D4000C06100;
+			remoteInfo = ForMI;
+		};
+		9F8B2E801CDB7D4000C06100 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F8B2E531CDB7D4000C06100 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F8B2E5A1CDB7D4000C06100;
+			remoteInfo = ForMI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9F8B2E5B1CDB7D4000C06100 /* ForMI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForMI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F8B2E5F1CDB7D4000C06100 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9F8B2E611CDB7D4000C06100 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9F8B2E621CDB7D4000C06100 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9F8B2E641CDB7D4000C06100 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9F8B2E651CDB7D4000C06100 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9F8B2E681CDB7D4000C06100 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9F8B2E6A1CDB7D4000C06100 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F8B2E6D1CDB7D4000C06100 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9F8B2E6F1CDB7D4000C06100 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F8B2E741CDB7D4000C06100 /* ForMITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForMITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F8B2E781CDB7D4000C06100 /* ForMITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForMITests.m; sourceTree = "<group>"; };
+		9F8B2E7A1CDB7D4000C06100 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F8B2E7F1CDB7D4000C06100 /* ForMIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForMIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F8B2E831CDB7D4000C06100 /* ForMIUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForMIUITests.m; sourceTree = "<group>"; };
+		9F8B2E851CDB7D4000C06100 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F8B2E941CDB804F00C06100 /* HeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderView.h; sourceTree = "<group>"; };
+		9F8B2E951CDB804F00C06100 /* HeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderView.m; sourceTree = "<group>"; };
+		9F8B2E971CDB818A00C06100 /* UIImageView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Extension.h"; sourceTree = "<group>"; };
+		9F8B2E981CDB818A00C06100 /* UIImageView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Extension.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F8B2E581CDB7D4000C06100 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F8B2E711CDB7D4000C06100 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F8B2E7C1CDB7D4000C06100 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F8B2E521CDB7D4000C06100 = {
+			isa = PBXGroup;
+			children = (
+				9F8B2E5D1CDB7D4000C06100 /* ForMI */,
+				9F8B2E771CDB7D4000C06100 /* ForMITests */,
+				9F8B2E821CDB7D4000C06100 /* ForMIUITests */,
+				9F8B2E5C1CDB7D4000C06100 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F8B2E5C1CDB7D4000C06100 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F8B2E5B1CDB7D4000C06100 /* ForMI.app */,
+				9F8B2E741CDB7D4000C06100 /* ForMITests.xctest */,
+				9F8B2E7F1CDB7D4000C06100 /* ForMIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F8B2E5D1CDB7D4000C06100 /* ForMI */ = {
+			isa = PBXGroup;
+			children = (
+				9F8B2E611CDB7D4000C06100 /* AppDelegate.h */,
+				9F8B2E621CDB7D4000C06100 /* AppDelegate.m */,
+				9F8B2E641CDB7D4000C06100 /* ViewController.h */,
+				9F8B2E651CDB7D4000C06100 /* ViewController.m */,
+				9F8B2E941CDB804F00C06100 /* HeaderView.h */,
+				9F8B2E951CDB804F00C06100 /* HeaderView.m */,
+				9F8B2E971CDB818A00C06100 /* UIImageView+Extension.h */,
+				9F8B2E981CDB818A00C06100 /* UIImageView+Extension.m */,
+				9F8B2E671CDB7D4000C06100 /* Main.storyboard */,
+				9F8B2E6A1CDB7D4000C06100 /* Assets.xcassets */,
+				9F8B2E6C1CDB7D4000C06100 /* LaunchScreen.storyboard */,
+				9F8B2E6F1CDB7D4000C06100 /* Info.plist */,
+				9F8B2E5E1CDB7D4000C06100 /* Supporting Files */,
+			);
+			path = ForMI;
+			sourceTree = "<group>";
+		};
+		9F8B2E5E1CDB7D4000C06100 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F8B2E5F1CDB7D4000C06100 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9F8B2E771CDB7D4000C06100 /* ForMITests */ = {
+			isa = PBXGroup;
+			children = (
+				9F8B2E781CDB7D4000C06100 /* ForMITests.m */,
+				9F8B2E7A1CDB7D4000C06100 /* Info.plist */,
+			);
+			path = ForMITests;
+			sourceTree = "<group>";
+		};
+		9F8B2E821CDB7D4000C06100 /* ForMIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9F8B2E831CDB7D4000C06100 /* ForMIUITests.m */,
+				9F8B2E851CDB7D4000C06100 /* Info.plist */,
+			);
+			path = ForMIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F8B2E5A1CDB7D4000C06100 /* ForMI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F8B2E881CDB7D4000C06100 /* Build configuration list for PBXNativeTarget "ForMI" */;
+			buildPhases = (
+				9F8B2E571CDB7D4000C06100 /* Sources */,
+				9F8B2E581CDB7D4000C06100 /* Frameworks */,
+				9F8B2E591CDB7D4000C06100 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ForMI;
+			productName = ForMI;
+			productReference = 9F8B2E5B1CDB7D4000C06100 /* ForMI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9F8B2E731CDB7D4000C06100 /* ForMITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F8B2E8B1CDB7D4000C06100 /* Build configuration list for PBXNativeTarget "ForMITests" */;
+			buildPhases = (
+				9F8B2E701CDB7D4000C06100 /* Sources */,
+				9F8B2E711CDB7D4000C06100 /* Frameworks */,
+				9F8B2E721CDB7D4000C06100 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F8B2E761CDB7D4000C06100 /* PBXTargetDependency */,
+			);
+			name = ForMITests;
+			productName = ForMITests;
+			productReference = 9F8B2E741CDB7D4000C06100 /* ForMITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9F8B2E7E1CDB7D4000C06100 /* ForMIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F8B2E8E1CDB7D4000C06100 /* Build configuration list for PBXNativeTarget "ForMIUITests" */;
+			buildPhases = (
+				9F8B2E7B1CDB7D4000C06100 /* Sources */,
+				9F8B2E7C1CDB7D4000C06100 /* Frameworks */,
+				9F8B2E7D1CDB7D4000C06100 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F8B2E811CDB7D4000C06100 /* PBXTargetDependency */,
+			);
+			name = ForMIUITests;
+			productName = ForMIUITests;
+			productReference = 9F8B2E7F1CDB7D4000C06100 /* ForMIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F8B2E531CDB7D4000C06100 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = allen;
+				TargetAttributes = {
+					9F8B2E5A1CDB7D4000C06100 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					9F8B2E731CDB7D4000C06100 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 9F8B2E5A1CDB7D4000C06100;
+					};
+					9F8B2E7E1CDB7D4000C06100 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 9F8B2E5A1CDB7D4000C06100;
+					};
+				};
+			};
+			buildConfigurationList = 9F8B2E561CDB7D4000C06100 /* Build configuration list for PBXProject "ForMI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F8B2E521CDB7D4000C06100;
+			productRefGroup = 9F8B2E5C1CDB7D4000C06100 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F8B2E5A1CDB7D4000C06100 /* ForMI */,
+				9F8B2E731CDB7D4000C06100 /* ForMITests */,
+				9F8B2E7E1CDB7D4000C06100 /* ForMIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F8B2E591CDB7D4000C06100 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F8B2E6E1CDB7D4000C06100 /* LaunchScreen.storyboard in Resources */,
+				9F8B2E6B1CDB7D4000C06100 /* Assets.xcassets in Resources */,
+				9F8B2E691CDB7D4000C06100 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F8B2E721CDB7D4000C06100 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F8B2E7D1CDB7D4000C06100 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F8B2E571CDB7D4000C06100 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F8B2E661CDB7D4000C06100 /* ViewController.m in Sources */,
+				9F8B2E631CDB7D4000C06100 /* AppDelegate.m in Sources */,
+				9F8B2E601CDB7D4000C06100 /* main.m in Sources */,
+				9F8B2E961CDB804F00C06100 /* HeaderView.m in Sources */,
+				9F8B2E991CDB818A00C06100 /* UIImageView+Extension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F8B2E701CDB7D4000C06100 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F8B2E791CDB7D4000C06100 /* ForMITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F8B2E7B1CDB7D4000C06100 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F8B2E841CDB7D4000C06100 /* ForMIUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9F8B2E761CDB7D4000C06100 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F8B2E5A1CDB7D4000C06100 /* ForMI */;
+			targetProxy = 9F8B2E751CDB7D4000C06100 /* PBXContainerItemProxy */;
+		};
+		9F8B2E811CDB7D4000C06100 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F8B2E5A1CDB7D4000C06100 /* ForMI */;
+			targetProxy = 9F8B2E801CDB7D4000C06100 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9F8B2E671CDB7D4000C06100 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F8B2E681CDB7D4000C06100 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9F8B2E6C1CDB7D4000C06100 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F8B2E6D1CDB7D4000C06100 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F8B2E861CDB7D4000C06100 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9F8B2E871CDB7D4000C06100 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F8B2E891CDB7D4000C06100 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ForMI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Enjoy.cn.ForMI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9F8B2E8A1CDB7D4000C06100 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ForMI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Enjoy.cn.ForMI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9F8B2E8C1CDB7D4000C06100 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ForMITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Enjoy.cn.ForMITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ForMI.app/ForMI";
+			};
+			name = Debug;
+		};
+		9F8B2E8D1CDB7D4000C06100 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ForMITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Enjoy.cn.ForMITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ForMI.app/ForMI";
+			};
+			name = Release;
+		};
+		9F8B2E8F1CDB7D4000C06100 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ForMIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Enjoy.cn.ForMIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ForMI;
+			};
+			name = Debug;
+		};
+		9F8B2E901CDB7D4000C06100 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ForMIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Enjoy.cn.ForMIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ForMI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F8B2E561CDB7D4000C06100 /* Build configuration list for PBXProject "ForMI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F8B2E861CDB7D4000C06100 /* Debug */,
+				9F8B2E871CDB7D4000C06100 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F8B2E881CDB7D4000C06100 /* Build configuration list for PBXNativeTarget "ForMI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F8B2E891CDB7D4000C06100 /* Debug */,
+				9F8B2E8A1CDB7D4000C06100 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9F8B2E8B1CDB7D4000C06100 /* Build configuration list for PBXNativeTarget "ForMITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F8B2E8C1CDB7D4000C06100 /* Debug */,
+				9F8B2E8D1CDB7D4000C06100 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9F8B2E8E1CDB7D4000C06100 /* Build configuration list for PBXNativeTarget "ForMIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F8B2E8F1CDB7D4000C06100 /* Debug */,
+				9F8B2E901CDB7D4000C06100 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F8B2E531CDB7D4000C06100 /* Project object */;
+}
